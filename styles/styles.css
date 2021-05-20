@@ -1,5 +1,6 @@
 *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 
 .page{
@@ -16,8 +17,8 @@ header{
 
 main{
 
-   display:flex;
-   
+    display:flex;
+    
     
 }
 
@@ -26,14 +27,26 @@ h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
     
+    
+}
+
+h2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.containerRightTitles {
+    text-align: center;
+    flex-basis: 44%;
+    
+  
 }
 
 container_right{
-    border: dotted 1px blue;
+    
     flex: 3;
 }
 container_left{
-    border: dotted 1px blue;
+    
     flex:1;
 }
 
@@ -48,8 +61,8 @@ container_left{
 
 .siteTitle{
     flex:2;
-    font-size: 2em;
-    padding-top: 3.5em;
+    font-size: 75px;
+    padding-top: .5em;
     float: left;
 }
 
@@ -69,7 +82,7 @@ container_left{
 
 .fishList{
     display:flex;
-    flex-basis: 20%;
+    flex-basis: 44%;
     border: solid black 1px;
     margin: 1em;
     padding: 1em;
@@ -94,9 +107,11 @@ container_left{
 
 .quoteList{
    
+    display:flex;
+    flex-basis: 44%;
+    border: solid black 1px;
     margin: 1em;
-    padding: 1em;
-   flex-basis: 30%;
+    padding: 1em;;
 }
 
 .locations{
@@ -110,32 +125,31 @@ container_left{
 }
 
 .locationsList{
+    display:flex;
+    flex-basis: 44%;
     border: solid black 1px;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
     margin: 1em;
-    padding: 0.5em;
-    height: 100px;
-    width: 500px;a
+    padding: 1em;;
 }
-
-.tankTips{
     
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin: 2em;
-    padding: 1em;
-    padding-top: 2em;
-   
-}
-
-.tipList{
-  
-    flex-direction: column;
-    margin: 1em;
-    padding: 0.5em;
-    text-align: center;
-}
+    .tankTips{
+        
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 2em;
+        padding: 1em;
+        padding-top: 2em;
+        
+    }
+    
+    .tipList{
+      
+        flex-direction: column;
+        margin: 1em;
+        padding: .5em;
+        text-align: center;
+    }
+    
+    
