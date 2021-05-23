@@ -71,9 +71,11 @@ container_left {
   box-shadow: 1em;
 }
 .fishImage {
-  width: 200px;
-  height: 200px;
+    width: 200px;
+    height: 200px;
+    border-radius: 2em;
 }
+
 .fishList {
   display: flex;
   flex-basis: 41%;
@@ -207,6 +209,11 @@ container_left {
 
 .china{
     background-image: url("/assets/china.jpg");
+    opacity: 0.8;
+ 
+}
+.canada{
+    background-image: url("/assets/canada.jpg");
     opacity: 0.8;
  
 }
