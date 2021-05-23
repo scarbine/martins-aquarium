@@ -76,7 +76,7 @@ container_left {
 }
 .fishList {
   display: flex;
-  flex-basis: 35%;
+  flex-basis: 41%;
   border: solid #F0F8FF 1px;
   margin: 1em;
   padding: 1em;
