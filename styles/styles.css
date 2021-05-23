@@ -1,6 +1,14 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+</style>
+
 * {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #f0f8ff;
+  /* background-color: #f0f8ff; */
 }
 
 .page {
@@ -10,8 +18,11 @@
 }
 
 header {
-  display: flex;
- 
+    display: flex;
+    background-color: transparent;
+    margin: 1em;
+    padding: 1em;
+}
 }
 
 main {
@@ -20,35 +31,47 @@ main {
     justify-content: space-evenly;
     margin: 1em;
     padding: 1em;
+    background-color: transparent;
 }
 
 h1 {
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    background-color: transparent;
 }
 
 h2 {
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    background-color: transparent;
+}
+
+body{
+    /* background-image: url("/assets/background.jpg"); */
+    
 }
 .containerRightTitles {
   text-align: center;
   flex-basis: 44%;
+  background-color: transparent;
 }
 
 container_right {
   flex: 3;
+  background-color: transparent;
 }
 container_left {
   flex: 1;
+  background-color: transparent;
 }
 
 .logo {
   
   margin: 1em;
   padding: 0.25;
+  background-color: transparent;
 }
 
 .siteTitle {
@@ -57,6 +80,8 @@ container_left {
   padding-top: 0.5em;
   float: left;
   background-color: transparent;
+  /* font-family: 'Shadows Into Light', cursive; */
+  /* font-family: 'Shadows Into Light', cursive; */
 }
 
 .fish {
@@ -68,7 +93,7 @@ container_left {
   padding-top: 2em;
   background-color: #cae9f5;
   border-radius: 2.5em;
-  box-shadow: 1em;
+  box-shadow: 6px 6px lightgrey
 }
 .fishImage {
     width: 200px;
@@ -83,6 +108,8 @@ container_left {
   margin: 1em;
   padding: 1em;
   border-radius: 2em;
+  box-shadow: 6px 6px lightgrey;
+  background-color: #f0f8ff;
 }
 .fishTitle {
   align-self: center;
@@ -110,6 +137,7 @@ container_left {
     justify-content: center;
     padding: 1.75em;
     text-align: center;
+    box-shadow: 6px 6px lightgrey
 }
 
 
@@ -135,12 +163,13 @@ container_left {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin: 2em;
+  margin: 1em;
   padding: 1em;
   padding-top: 2em;
   background-color: #cae9f5;
+  /* background-image: url("/assets/underwater.jpg"); */
   border-radius: 2.5em;
-  box-shadow: 1em;
+  box-shadow: 6px 6px lightgrey
 }
 
 .tipList {
@@ -186,11 +215,11 @@ container_left {
 
 .locationsListCard{
 
-      margin: .5em;
-      width: 400px;
-      height: 378px;
-      border-radius: 2em;
-
+    margin: .5em;
+    width: 400px;
+    height: 378px;
+    border-radius: 2em;
+    box-shadow: 6px 6px lightgrey
 }
 
 
