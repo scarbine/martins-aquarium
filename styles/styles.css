@@ -11,10 +11,13 @@
   /* background-color: #f0f8ff; */
 }
 
-.page {
-  display: flex;
-  align-items: flex-start;
-  background-color: #f0f8ff;
+body{
+    /* background-image: url("/assets/background.jpg"); */
+    
+}
+
+footer{
+    text-align: center;
 }
 
 header {
@@ -23,6 +26,19 @@ header {
     margin: 1em;
     padding: 1em;
 }
+
+h1 {
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    background-color: transparent;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    background-color: transparent;
 }
 
 main {
@@ -34,66 +50,35 @@ main {
     background-color: transparent;
 }
 
-h1 {
-  text-align: center;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    background-color: transparent;
-}
-
-h2 {
-  text-align: center;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    background-color: transparent;
-}
-
-body{
-    /* background-image: url("/assets/background.jpg"); */
-    
-}
+/* .bottom_box{
+    /* display: flex; */
+} */
 .containerRightTitles {
-  text-align: center;
-  flex-basis: 44%;
-  background-color: transparent;
+    text-align: center;
+    flex-basis: 44%;
+    background-color: transparent;
 }
 
-container_right {
-  flex: 3;
-  background-color: transparent;
-}
-container_left {
-  flex: 1;
-  background-color: transparent;
+.container_right {
+    flex: 3;
+    background-color: transparent;
 }
 
-.logo {
-  
-  margin: 1em;
-  padding: 0.25;
-  background-color: transparent;
-}
-
-.siteTitle {
-  flex: 2;
-  font-size: 75px;
-  padding-top: 0.5em;
-  float: left;
-  background-color: transparent;
-  /* font-family: 'Shadows Into Light', cursive; */
-  /* font-family: 'Shadows Into Light', cursive; */
+.container_left {
+    flex: 1;
+    background-color: transparent;
 }
 
 .fish {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin: 1em;
-  padding: 1em;
-  padding-top: 2em;
-  background-color: #cae9f5;
-  border-radius: 2.5em;
-  box-shadow: 6px 6px lightgrey
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1em;
+    padding: 1em;
+    padding-top: 2em;
+    background-color: #cae9f5;
+    border-radius: 2.5em;
+    box-shadow: 6px 6px lightgrey
 }
 .fishImage {
     width: 200px;
@@ -101,45 +86,27 @@ container_left {
     border-radius: 2em;
 }
 
-.fishList {
-  display: flex;
-  flex-basis: 41%;
-  border: solid #F0F8FF 1px;
-  margin: 1em;
-  padding: 1em;
-  border-radius: 2em;
-  box-shadow: 6px 6px lightgrey;
-  background-color: #f0f8ff;
-}
-.fishTitle {
-  align-self: center;
-  flex-grow: 2;
-}
-.fishNames {
-  padding-left: 1em;
-}
-.quotes {
-      
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-      margin: 1em;
-      padding: 1em;
+.fishLocations{
+    display: flex;
     
 }
-.quoteList {
+.fishList {
     display: flex;
-    flex-basis: 100%;
+    flex-basis: 41%;
+    border: solid #F0F8FF 1px;
     margin: 1em;
     padding: 1em;
-    background-color: #cae9f5;
     border-radius: 2em;
-    justify-content: center;
-    padding: 1.75em;
-    text-align: center;
-    box-shadow: 6px 6px lightgrey
+    box-shadow: 6px 6px lightgrey;
+    background-color: #f0f8ff;
 }
-
+.fishTitle {
+    align-self: center;
+    flex-grow: 2;
+}
+.fishNames {
+    padding-left: 1em;
+}
 
 .locations {
     display: flex;
@@ -153,43 +120,95 @@ container_left {
     display: flex;
 }
 
-.fishLocations{
-    display: flex;
-   
-}
-
-
-.tankTips {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  margin: 1em;
-  padding: 1em;
-  padding-top: 2em;
-  background-color: #cae9f5;
-  /* background-image: url("/assets/underwater.jpg"); */
-  border-radius: 2.5em;
-  box-shadow: 6px 6px lightgrey
-}
-
-.tipList {
-  flex-direction: column;
-  margin: 1em;
-  padding: 0.5em;
-  text-align: center;
-  background-color: transparent;
-}
-
-
 .locationCard {
-
+    
     display: flex;
     flex-direction: wrap;
     flex-basis: 25%;
     border-radius: 2em;
 }
 
+.locationsListCard{
+    
+    margin: .5em;
+    width: 400px;
+    height: 378px;
+    border-radius: 2em;
+    box-shadow: 6px 6px lightgrey
+}
 
+.logo {
+    
+    margin: 1em;
+    padding: 0.25;
+    background-color: transparent;
+}
+
+.page {
+    display: flex;
+    align-items: flex-start;
+    background-color: #f0f8ff;
+}
+
+.quotes {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1em;
+    padding: 1em;
+    
+}
+
+.quoteList {
+    display: flex;
+    flex-basis: 100%;
+    margin: 1em;
+    padding: 1em;
+    background-color: #cae9f5;
+    border-radius: 2em;
+    justify-content: center;
+    padding: 1.75em;
+    text-align: center;
+    box-shadow: 6px 6px lightgrey
+}
+
+.tankTips {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 1em;
+    padding: 1em;
+    padding-top: 2em;
+    background-color: #cae9f5;
+    /* background-image: url("/assets/underwater.jpg"); */
+    border-radius: 2.5em;
+    box-shadow: 6px 6px lightgrey
+}
+
+.tipList {
+    flex-direction: column;
+    margin: 1em;
+    padding: 0.5em;
+    text-align: center;
+    background-color: transparent;
+}
+
+
+.top_box{
+    /* display: flex */
+}
+
+
+.siteTitle {
+    flex: 2;
+    font-size: 75px;
+    padding-top: 0.5em;
+    float: left;
+    background-color: transparent;
+    /* font-family: 'Shadows Into Light', cursive; */
+    /* font-family: 'Shadows Into Light', cursive; */
+}
 
 .stack_1{
     padding-top: 2em;
@@ -213,14 +232,8 @@ container_left {
    
 }
 
-.locationsListCard{
 
-    margin: .5em;
-    width: 400px;
-    height: 378px;
-    border-radius: 2em;
-    box-shadow: 6px 6px lightgrey
-}
+/* Imported images */
 
 
 .europe{
@@ -247,13 +260,7 @@ container_left {
  
 }
 
-footer{
-    text-align: center;
-}
 
-top_box{
-    display: flex
-}
-bottom_box{
-    display: flex;
+.bottom_box{
+    /* display: flex; */
 }
