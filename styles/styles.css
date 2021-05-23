@@ -11,11 +11,15 @@
 
 header {
   display: flex;
-  /* background-color: #AFDCEB;     */
+ 
 }
 
 main {
-  display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1em;
+    padding: 1em;
 }
 
 h1 {
@@ -42,7 +46,7 @@ container_left {
 }
 
 .logo {
-  /* flex:1; */
+  
   margin: 1em;
   padding: 0.25;
 }
@@ -66,12 +70,10 @@ container_left {
   border-radius: 2.5em;
   box-shadow: 1em;
 }
-
 .fishImage {
   width: 200px;
   height: 200px;
 }
-
 .fishList {
   display: flex;
   flex-basis: 35%;
@@ -84,52 +86,48 @@ container_left {
   align-self: center;
   flex-grow: 2;
 }
-
 .fishNames {
   padding-left: 1em;
 }
 .quotes {
-      /* border: solid black 1px; */
+      
       display: flex;
-      /* flex-wrap: wrap; */
+      flex-wrap: wrap;
       justify-content: space-evenly;
       margin: 1em;
       padding: 1em;
-      /* border-radius: 2em;*/
+    
 }
-
-
 .quoteList {
     display: flex;
-    flex-basis: 44%;
-    /* border: solid black 1px; */
+    flex-basis: 100%;
     margin: 1em;
     padding: 1em;
     background-color: #cae9f5;
     border-radius: 2em;
     justify-content: center;
-    /* text-align: center; */
-    padding: 2.75em;
+    padding: 1.75em;
+    text-align: center;
 }
-}
+
 
 .locations {
-  border: solid black 1px;
-  display: flex;
-  flex-wrap: wrap;
-  /* flex-wrap: wrap; */
-  justify-content: space-evenly;
-  margin: 1em;
-  padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* margin: 1em; */
+    /* padding: 1em; */
+    /* padding-top: 2em; */
+    /* border-radius: 2.5em; */
+    box-shadow: 1em;
+    display: flex;
 }
 
-.locationsList {
- 
-  position: relative;
-  margin: 1em;
-  padding: 1em;
-
+.fishLocations{
+    display: flex;
+   
 }
+
 
 .tankTips {
   display: flex;
@@ -153,62 +151,73 @@ container_left {
 
 
 .locationCard {
-    position: relative;
-  display: flex;
-  justify-content: center;
-  /* border: 1px solid black; */
-  padding: .5em;
-  margin: .5em;
 
+    display: flex;
+    flex-direction: wrap;
+    flex-basis: 25%;
+    border-radius: 2em;
 }
 
-.locationPics {
-    width: 687px;
-    height: 387px;
-}
+
 
 .stack_1{
+    padding-top: 2em;
     background-color: transparent;
-    color: #86C5D8;
+    color: white;
     text-shadow: 1em grey;
     border: dotted 2 px black;
-    margin: 1em;
-    padding: 1em;
+    text-align: center;
+    PADDING-TOP: 2EM;
+    /* font-size: x-large; */
+    text-shadow: 2px 3px black;
     
 }
 
 .stack_2{
     background-color: transparent;
-    color: #86C5D8;
+    color: white;
     text-shadow: 1em grey;
     border: dotted 2 px black;
-    margin: 1em;
-    padding: 1em;
+    text-align: center;
    
 }
 
 .locationsListCard{
 
+      margin: .5em;
+      width: 400px;
+      height: 378px;
+      border-radius: 2em;
+
+}
+
+
+.europe{
+    background-image: url("/assets/europe.jpg") ;
+    opacity: 0.8;
+   
+}
+
+.sydney{
+    background-image: url("/assets/sydney.jpg");
+    opacity: 0.8;
  
-    border: 1px black solid;
-    margin: .5em;
-    padding: .25em;
-    /* position: absolute; */
-    background-color: transparent;
-    width: 687px;
-    height: 387px;
-    /* display: flex; */
+
 }
 
-/* .fishQuotes{
-    margin: 5em;
+.china{
+    background-image: url("/assets/china.jpg");
+    opacity: 0.8;
+ 
 }
 
-.fishLocations{
-    margin: 5em;
+footer{
+    text-align: center;
 }
 
-.fishListCard{
-    margin: 5em;
-
-} */
+top_box{
+    display: flex
+}
+bottom_box{
+    display: flex;
+}
