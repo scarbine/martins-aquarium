@@ -1,3 +1,4 @@
+// This is a database of all of the fish we want to display
 
 export const fishDatabase = {
 
