@@ -4,7 +4,7 @@ export const fishDatabase = {
     fish: [
         
         {
-            
+            image: "/assets/Flowerhorn.jpg",
             name: "Flowerhorn",
             species: "Cichlids",
             length: 5,
@@ -13,6 +13,7 @@ export const fishDatabase = {
 
         },
         {
+            image: "/assets/betta-fish.jpg", 
             name: "Betta Fish",
             species: "B. splendens",
             length: 3,
@@ -20,6 +21,7 @@ export const fishDatabase = {
             food: "Fish Food"
         },
         {
+            image: "/assets/fangtooth.jpg",
             name: "Fangtooth",
             species: "Beryciformes",
             length: 7,
@@ -27,6 +29,7 @@ export const fishDatabase = {
             food: "Fish Food"
         },
         {
+            image: "/assets/periwinkle.jpg",
             name: "Periwinkle",
             species: "L. littorea",
             length: 4,
@@ -34,6 +37,7 @@ export const fishDatabase = {
             food: "Fish Food"
         },
         {
+            image: "/assets/blue-butterfly.png",
             name: "Blue Butterfly",
             species: "C. bennetti",
             length: 8,
@@ -41,6 +45,7 @@ export const fishDatabase = {
             food: "Fish Food"
         },
         {
+            image: "/assets/rainbowFish.jpg",
             name: "Rainbow Beta",
             species: 3,
             length: 6,
