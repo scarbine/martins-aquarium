@@ -1,10 +1,8 @@
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-</style>
 
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-</style>
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 
 * {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -22,7 +20,7 @@ header {
     margin: 1em;
     padding: 1em;
 }
-}
+
 
 main {
     display: flex;
@@ -137,7 +135,7 @@ container_left {
     height: 300px;
 }
 .quoteList {
-  display: flex; */
+  display: flex; 
   /* flex-basis: 100%; */
   margin: 1em;
   /* text-align: center; */
@@ -227,12 +225,12 @@ container_left {
     width: 400px;
     height: 378px;
     border-radius: 2em;
-    box-shadow: 6px 6px lightgrey
+    box-shadow: 6px 6px lightgrey;
 }
 
 
 .europe{
-    background-image: url("/assets/europe.jpg") ;
+    background-image: url("/assets/europe.jpg");
     opacity: 0.8;
    
 }
